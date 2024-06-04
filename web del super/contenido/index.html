@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="bg-dark text-white p-3 d-flex justify-content-between align-items-center">
+        <div class="logo">Somos tu mejor opción</div>
+        <div class="company-name"><h1>Super los Ocotes</h1></div>
+        <nav>
+            <ul class="nav">
+                <li class="nav-item"><a class="nav-link text-white" href="index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="about.html">Sobre Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="products.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link text-white" href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="introduction mt-4">
+            <h1>Bienvenido a tu mejor super</h1>
+            <p>Ofrecemos los mejores productos y servicios para satisfacer tus necesidades.</p>
+        </section>
+
+        <section class="cta mt-4">
+            <button class="btn btn-primary" onclick="location.href='products.html'">Nuestros Productos</button>
+            <button class="btn btn-secondary" onclick="location.href='contact.html'">Contáctanos</button>
+        </section>
+
+        <section class="featured-media mt-4">
+            <img src="../imagenes/logo super.png" class="img-fluid" alt="Producto Destacado">
+        </section>
+
+        <section class="testimonials mt-4">
+            <h2>Testimonios</h2>
+            <blockquote class="blockquote">
+                <p class="mb-0">"Siempre encuentro lo que necesito!" - Cliente Satisfecho</p>
+            </blockquote>
+            <blockquote class="blockquote">
+                <p class="mb-0">"El servicio al cliente es excepcional." - Otro Cliente Satisfecho</p>
+            </blockquote>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3 mt-4">
+        <p>Contacto: losocotessuper@gmail.com | Teléfono: (502) 3312-8210</p>
+        <p>Síguenos en <a href="#" class="text-white">Facebook</a>, <a href="#" class="text-white">Twitter</a>, <a href="#" class="text-white">Instagram</a></p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header .logo {
+    font-size: 1.5rem;
+}
+
+header .company-name {
+    font-size: 1.25rem;
+}
+
+.introduction, .cta, .featured-media, .testimonials, .company-history, .team, .values-culture, .product-catalog, .services, .blog-posts, .contact-info, .contact-form, .map {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
